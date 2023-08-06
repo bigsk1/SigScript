@@ -35,6 +35,16 @@ Supports  ('.png', '.jpg', '.jpeg', '.bmp', '.tiff')  upper and lowercase extent
 
 
 
+ 
+ <div style="text-align: center;">
 
-<a href="https://imageshack.com/i/pnUklSgDj" target="_blank"><img alt="FireShot Pro Screen Capture" src="https://imagizer.imageshack.com/img923/5148/UklSgD.th.jpg" border="0"></a><br/><a href="https://imageshack.com/i/pnUklSgDj" target="_blank">SDXL</a>
+![alt text](https://imagizer.imageshack.com/img923/5148/UklSgD.jpg
+ "Our logo")
+
+</div>
+ 
+ SDXL
+
+
+
 
