@@ -31,7 +31,7 @@ Save the file
 double click start.bat to run
 
 
-the signed images will be shown in the same image folder and have the signed file name added to them. The originals will not be touched. 
+the signed images will be shown in the outputs folder and have the signed file name added to them. The originals will not be touched. 
 
 example if your image name is 00925-3431573143.png
 then after will be 00925-3431573143_signed.png
