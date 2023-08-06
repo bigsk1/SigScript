@@ -32,7 +32,7 @@ color = (225, 225, 225)  # RGB color of font
 thickness = 1  # Line thickness
 
 # Get the list of all image file paths in a directory
-directory = r'X:\sd-images-signatures'  # PATH TO YOUR IMAGES FOLDER
+directory = r'C:\pathtoyourimagefolder'  # PATH TO YOUR IMAGES FOLDER  example C:\Users\somedude\Downloads
 
 # Create outputs folder if not exists
 output_directory = os.path.join(directory, 'outputs')
