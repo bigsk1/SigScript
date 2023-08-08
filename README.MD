@@ -1,6 +1,10 @@
 I made this script to add my signature to all the Stable Diffusion images I generate. I might make an extention for automatic1111 to use this in the future. 
 
-All you need is a folder with all the images you want to add a signature / name to. I suggest doing a few images first to see if the size, color and spacing will work for you. Below is an example image. 
+All you need is a folder with all the images you want to add a signature / name to. I suggest doing a few images first to see if the size, color and spacing will work for you.
+
+How to use SigScript video on youtube
+
+https://youtu.be/d-HNH0cM-uk
 
 --- 
 ## Windows 10/11 Install 
