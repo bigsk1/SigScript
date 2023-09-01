@@ -55,23 +55,23 @@ The default font color is white, but you can change it by modifying the RGB valu
 
 ### Step 4: Run the Script
 
-Double-click \`start.bat\` to run the script.
+Double-click `start.bat` to run the script.
 
-\#\# \ud83d\udcc1 Output
+## Output
 
-The signed images will be saved in the \`outputs\` folder. Original images will not be modified.
+The signed images will be saved in the `outputs` folder. Original images will not be modified.
 
-\#\#\# File Naming
+### File Naming
 
-If your original image name is \`00925-3431573143.png\`, the signed image will be saved as \`00925-3431573143_signed.png\`.
+If your original image name is `00925-3431573143.png`, the signed image will be saved as `00925-3431573143_signed.png`.
 
-\#\# \ud83d\udcd6 Supported File Types
+### Supported File Types
 
-- \`.png\`
-- \`.jpg\`
-- \`.jpeg\`
-- \`.bmp\`
-- \`.tiff\`
+- `.png`
+- `.jpg`
+- `.jpeg`
+- `.bmp`
+- `.tiff`
 
 > Note: The script supports both upper and lowercase file extensions like \`.PNG\`.
 
