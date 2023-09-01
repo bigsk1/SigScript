@@ -1,47 +1,79 @@
-I made this script to add my signature to all the Stable Diffusion images I generate. I might make an extention for automatic1111 to use this in the future. 
+# SigScript for Stable Diffusion Images
 
-All you need is a folder with all the images you want to add a signature / name to. I suggest doing a few images first to see if the size, color and spacing will work for you.
+This script automatically adds a signature to all the Stable Diffusion images you generate. The idea is to make it easier to brand your images with your own name or alias.
 
-How to use SigScript video on youtube
+## 🎥 Demo
 
-https://youtu.be/d-HNH0cM-uk
+[Watch the Tutorial Video on YouTube](https://youtu.be/d-HNH0cM-uk)
 
---- 
-## Windows 10/11 Install 
-### Need to have python 3+ installed
+## 📌 Prerequisites
 
-start.bat will install a python virtual enviroment (venv)
-### To use open the scrips/signature.py file in notepad
+- Python 3.x
+- Windows 10/11
 
-change the path to image folder to the folder of your images you want to add a signature to. 
+## 🚀 Quick Start
 
-directory = r'C:\add-your-image-folder-path-here'   
-IS THE PATH TO YOUR IMAGES FOLDER    
-example  C:\Users\somedude\Downloads
+### Step 1: Install Python Virtual Environment
 
+Run `start.bat` to install a Python virtual environment (venv).
 
-Add your name to the line
+### Step 2: Edit the Script
 
+Open the `scripts/signature.py` file in a text editor like Notepad.
+
+#### Set Image Folder Path
+
+Change the following line to point to your images folder.
+
+```python
+directory = r'C:\add-your-image-folder-path-here'
+```
+
+For example:
+
+```python
+directory = r'C:\\Users\\somedude\\Downloads'
+```
+
+### Add Your Signature
+
+Add your name or alias to the following line:
+
+```python
 signature_text = 'ADD YOUR NAME HERE'
+```
 
-example signature_text = '-bigsk1'
+For example:
 
-default font color is white but can be changed by changing the RGB numbers. Same with font, line width and size. 
+```python
+signature_text = '-bigsk1'
+```
 
+### Step 3: Customize Appearance (Optional)
 
-Save the file
+The default font color is white, but you can change it by modifying the RGB values in the script. You can also change the font, line width, and size.
 
+### Step 4: Run the Script
 
-double click start.bat to run
+Double-click \`start.bat\` to run the script.
 
+\#\# \ud83d\udcc1 Output
 
-the signed images will be shown in the outputs folder and have the signed file name added to them. The originals will not be touched. 
+The signed images will be saved in the \`outputs\` folder. Original images will not be modified.
 
-example if your image name is 00925-3431573143.png
-then after will be 00925-3431573143_signed.png
+\#\#\# File Naming
 
+If your original image name is \`00925-3431573143.png\`, the signed image will be saved as \`00925-3431573143_signed.png\`.
 
-Supports  ('.png', '.jpg', '.jpeg', '.bmp', '.tiff')  upper and lowercase extention names like .PNG also
+\#\# \ud83d\udcd6 Supported File Types
+
+- \`.png\`
+- \`.jpg\`
+- \`.jpeg\`
+- \`.bmp\`
+- \`.tiff\`
+
+> Note: The script supports both upper and lowercase file extensions like \`.PNG\`.
 
 
 
