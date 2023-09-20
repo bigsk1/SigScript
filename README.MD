@@ -4,7 +4,7 @@ This script automatically adds a signature to all the Stable Diffusion images yo
 
 ## 🎥 Demo
 
-[Watch the Tutorial Video on YouTube](https://youtu.be/d-HNH0cM-uk)
+[Watch the Tutorial Video on YouTube](https://youtu.be/_cfz92vdGt0?si=Jse4x_g41j5K3ACd)
 
 ## 📌 Prerequisites
 
